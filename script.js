@@ -81,10 +81,10 @@ renderQuestions();
 
 if(localStorage.getItem('score')){
     score = JSON.parse(localStorage.getItem('score'));
-    scoreElement.textContent = `Your score is ${score} out of 5`;
+    scoreElement.textContent = `Your score is ${score} out of 5.`;
 }
 
 submitBtn.addEventListener('click', () => {
   score = JSON.parse(localStorage.getItem('score'));
-  scoreElement.textContent = `Your score is ${score} out of 5`;
+  scoreElement.textContent = `Your score is ${score} out of 5.`;
 });
